@@ -15,7 +15,7 @@ var googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',
 
 // Mosaic layers
 var imageUrl = 'img/Andratx/andratx_s0_mosaic_febrer_2022.png';
-var altText = 'Image of Newark, N.J. in 1922. Source: The University of Texas at Austin, UT Libraries Map Collection.';
+var altText = 'Mosaic Andratx';
 var latLngBounds = L.latLngBounds([[39.5433740355509116, 2.3778120859159100], [39.5435832663690974, 2.3780889473301854]]);
 var imageOverlay = L.imageOverlay(imageUrl, latLngBounds, {
     opacity: 0.9,
@@ -24,10 +24,11 @@ var imageOverlay = L.imageOverlay(imageUrl, latLngBounds, {
 });
 
 var imageUrl2 = 'img/Cabrera/cabrera_s0_març_2023.png';
+var altText2 = 'Mosaic Cabrera';
 var latLngBounds2 = L.latLngBounds([[39.1503253173739409, 2.9323280685985198], [39.1507624565738013, 2.9327431911758550]]);
 var imageOverlay2 = L.imageOverlay(imageUrl2, latLngBounds2, {
     opacity: 0.9,
-    alt: altText,
+    alt: altText2,
     interactive: true
 });
 
